@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(12, 31, 90);
+}
+
+.icon {
+    display: inline-block;
+    width: 19%;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.arrow {
+    display: inline-block;
+    width: 8%;
+}
+
+.section_2 {
+    background-color: #0062af;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.icon-wrapper,
+.button-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.button-wrapper {
+    margin-top: -60px;
+}
+
+.button-wrapper div {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.icon-wrapper div {
+    vertical-align: middle;
+}
+
+.arrow img {
+    width: 100%;
+}
+
+.button {
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(161, 209, 250);
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(24, 172, 233);
+}
+
+.section_3,
+.section_4 {
+    color: white;
+}
+
+.section-3-top-img {
+    margin-top: -75px;
+}
+
+input[type="text"] {
+    background-color: rgb(11, 44, 104);
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    margin-top: 40px;
+}
+
+input[type="checkbox"]+label {
+    margin-top: 16px;
+    margin-left: 25px;
+}
+
+input::placeholder {
+    color: rgb(161, 209, 250);
+    font-size: 12px;
+}
+
+label {
+    color: white;
+}
+
+.file-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.reCaptcha-wrapper,
+.submit-wrapper {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tel-info {
+    margin-top: -35px;
+    font-size: 21px;
+}
+
+.section-3-btm-img {
+    margin-top: 50px;
+}
+
+.carousel-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-title {
+    font-size: 31px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.section_4>div>button {
+    margin: auto;
+    display: block;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-size: 14px;
+    padding: 8px 0px;
+    border-top: 2px dotted white;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 0px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-28r4 {
+    font-size: 13px;
+    vertical-align: top
+}
+
+.tg .tg-yw4l {
+    vertical-align: top
+}
+
+tr td:first-child {
+    width: 70%;
+}
+
+tr td:nth-child(2) {
+    width: 30%;
+}
+
+.section_5  {
+	text-align: center;
+	color: white;
+}
+
+ .section_6>div {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .icon {
+        display: block;
+        width: 100%;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .icon-text {
+        width: 100%;
+    }
+    .arrow {
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+        transform: rotate(90deg);
+        margin: 50px 0 50px 0;
+    }
+    .button-wrapper {
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    .button-wrapper div {
+        margin-top: 10px;
+    }
+    .section_2 {
+        height: 1300px;
+    }
+    .section-3-top-img {
+        margin-top: -56px;
+    }
+    .carousel-title {
+        font-size: 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
